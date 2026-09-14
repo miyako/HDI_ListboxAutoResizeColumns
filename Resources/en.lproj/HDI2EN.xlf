@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+        <source>Info</source>
+        <target>Info</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo" resname="HDI2_TabDemo">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextNotActivated" resname="HDI2_TextNotActivated">
+        <source>Option "Column Auto-Resizing" NOT activated.</source>
+        <target>Option "Column Auto-Resizing" NOT activated.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextActivated" resname="HDI2_TextActivated">
+        <source>Option "Column Auto-Resizing" ACTIVATED.</source>
+        <target>Option "Column Auto-Resizing" ACTIVATED.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextResize" resname="HDI2_TextResize">
+        <source>Resize the window and observe the behaviour of the listboxes !</source>
+        <target>Resize the window and observe the behaviour of the listboxes !</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderH1" resname="HDI2_HeaderH1">
+        <source>H1</source>
+        <target>H1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderH2" resname="HDI2_HeaderH2">
+        <source>H2</source>
+        <target>H2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderH3" resname="HDI2_HeaderH3">
+        <source>H3</source>
+        <target>H3</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderH4" resname="HDI2_HeaderH4">
+        <source>H4</source>
+        <target>H4</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

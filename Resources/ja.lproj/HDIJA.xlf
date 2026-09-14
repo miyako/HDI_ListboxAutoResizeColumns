@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="menus.json" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_TxtSorry1" resname="HDI_TxtSorry1">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこのHDIをデザインモードで開かないでください。機能が不足しているため、フォームやメソッドが変更される可能性があります。</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtInfo1" resname="HDI_TxtInfo1">
+        <source>How Do I...</source>
+        <target>How Do I...</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtInfo2" resname="HDI_TxtInfo2">
+        <source>… setup the listboxes so as their column widths resize automatically ?</source>
+        <target>… リストボックスのカラム幅が自動的にリサイズされるように設定する ?</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorry2" resname="HDI_TxtSorry2">
+        <source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+        <target>申し訳ございません。このHDI（How Do I）例は新しいバージョンの4Dが必要です（v16以降）。</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtVersion" resname="HDI_TxtVersion">
+        <source>(4D v16 and above…)</source>
+        <target>（4D v16 以降…）</target>
+      </trans-unit>
+      <trans-unit id="HDI_BtnDemo" resname="HDI_BtnDemo">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
