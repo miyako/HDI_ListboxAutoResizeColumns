@@ -1,0 +1,13 @@
+/* Cross-platform dark mode support */
+
+@media (prefers-color-scheme: light) {
+	.hdi-list {
+		fill: #FFFFDF;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-list {
+		fill: #3A2F1F;
+	}
+}

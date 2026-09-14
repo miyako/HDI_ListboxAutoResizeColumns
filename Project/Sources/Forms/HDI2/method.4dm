@@ -2,6 +2,8 @@
 Case of 
 	: (Form event code:C388=On Load:K2:1)
 		
+		var $json : Collection
+		
 		If (Get database localization:C1009(Current localization:K5:22)="ja")
 			$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("SAMPLES-ja.json").getText(); Is collection:K8:32)
 		Else 

@@ -30,8 +30,8 @@
 					"sizingY": "grow",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Demo"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabDemo"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -98,8 +98,7 @@
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
 					"headerHeight": "20px",
-					"fill": "#FFFFDF",
-					"alternateFill": "#DFE4FF",
+					"alternateFill": "automaticAlternate",
 					"events": [
 						"onClick",
 						"onDataChange",
@@ -114,8 +113,6 @@
 							"minWidth": 130,
 							"maxWidth": 300,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -124,7 +121,7 @@
 							],
 							"header": {
 								"name": "Header5",
-								"text": "H1",
+								"text": ":xliff:HDI2_HeaderH1",
 								"dataSource": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -132,12 +129,13 @@
 							},
 							"footer": {
 								"name": "Footer5",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column6",
@@ -146,8 +144,6 @@
 							"minWidth": 180,
 							"maxWidth": 250,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -156,7 +152,7 @@
 							],
 							"header": {
 								"name": "Header6",
-								"text": "H2",
+								"text": ":xliff:HDI2_HeaderH2",
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -164,12 +160,13 @@
 							},
 							"footer": {
 								"name": "Footer6",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column7",
@@ -178,8 +175,6 @@
 							"minWidth": 20,
 							"maxWidth": 60,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -188,7 +183,7 @@
 							],
 							"header": {
 								"name": "Header7",
-								"text": "H3",
+								"text": ":xliff:HDI2_HeaderH3",
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -196,12 +191,13 @@
 							},
 							"footer": {
 								"name": "Footer7",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column8",
@@ -210,8 +206,6 @@
 							"minWidth": 200,
 							"maxWidth": 300,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -220,7 +214,7 @@
 							],
 							"header": {
 								"name": "Header8",
-								"text": "H4",
+								"text": ":xliff:HDI2_HeaderH4",
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -228,14 +222,16 @@
 							},
 							"footer": {
 								"name": "Footer8",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"class": "hdi-list"
 				},
 				"Text": {
 					"type": "text",
@@ -246,7 +242,8 @@
 					"sizingX": "grow",
 					"textAlign": "left",
 					"fontWeight": "bold",
-					"text": "Option \"Column Auto-Resizing\" NOT activated."
+					"text": ":xliff:HDI2_TextNotActivated",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -257,7 +254,8 @@
 					"sizingX": "grow",
 					"textAlign": "left",
 					"fontWeight": "bold",
-					"text": "Option \"Column Auto-Resizing\" ACTIVATED."
+					"text": ":xliff:HDI2_TextActivated",
+					"stroke": "automatic"
 				},
 				"LB1": {
 					"type": "listbox",
@@ -271,8 +269,7 @@
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
 					"headerHeight": "20px",
-					"fill": "#FFFFDF",
-					"alternateFill": "#DFE4FF",
+					"alternateFill": "automaticAlternate",
 					"events": [
 						"onClick",
 						"onDataChange",
@@ -287,8 +284,6 @@
 							"minWidth": 130,
 							"maxWidth": 300,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -297,7 +292,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "H1",
+								"text": ":xliff:HDI2_HeaderH1",
 								"dataSource": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -305,12 +300,13 @@
 							},
 							"footer": {
 								"name": "Footer1",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -319,8 +315,6 @@
 							"minWidth": 180,
 							"maxWidth": 250,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -329,7 +323,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "H2",
+								"text": ":xliff:HDI2_HeaderH2",
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -337,12 +331,13 @@
 							},
 							"footer": {
 								"name": "Footer2",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -351,8 +346,6 @@
 							"minWidth": 20,
 							"maxWidth": 60,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -361,7 +354,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "H3",
+								"text": ":xliff:HDI2_HeaderH3",
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -369,12 +362,13 @@
 							},
 							"footer": {
 								"name": "Footer3",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -383,8 +377,6 @@
 							"minWidth": 200,
 							"maxWidth": 300,
 							"stroke": "automatic",
-							"fill": "#FFFFDF",
-							"alternateFill": "#DFE4FF",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -393,7 +385,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "H4",
+								"text": ":xliff:HDI2_HeaderH4",
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -401,14 +393,17 @@
 							},
 							"footer": {
 								"name": "Footer4",
-								"stroke": "#FFFFFF",
-								"fill": "#FFFFDF",
+								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic",
-								"fontWeight": "bold"
-							}
+								"fontWeight": "bold",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"resizingMode": "rightToLeft",
+					"class": "hdi-list"
 				},
 				"Picture2": {
 					"type": "picture",
@@ -432,7 +427,7 @@
 					"stroke": "#009900",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Resize the window and observe the behaviour of the listboxes !"
+					"text": ":xliff:HDI2_TextResize"
 				}
 			}
 		}

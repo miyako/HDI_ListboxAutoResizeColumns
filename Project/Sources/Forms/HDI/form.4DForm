@@ -33,7 +33,7 @@
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"text": ":xliff:HDI_TxtSorry1"
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -43,7 +43,8 @@
 					"height": 18,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": "How Do I..."
+					"text": ":xliff:HDI_TxtInfo1",
+					"stroke": "automatic"
 				},
 				"TxtInfo2": {
 					"type": "text",
@@ -53,7 +54,8 @@
 					"height": 68,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": "… setup the listboxes so as their column widths resize automatically ?"
+					"text": ":xliff:HDI_TxtInfo2",
+					"stroke": "automatic"
 				},
 				"TxtSorry2": {
 					"type": "text",
@@ -64,7 +66,8 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Sorry, this “How do I” (HDI) \rexample must be used with\ra newer version of 4D\r(v16 and above)."
+					"text": ":xliff:HDI_TxtSorry2",
+					"stroke": "automatic"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -83,7 +86,8 @@
 					"height": 16,
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
-					"text": "(4D v16 and above…)"
+					"text": ":xliff:HDI_TxtVersion",
+					"stroke": "automatic"
 				},
 				"TxtSorry3": {
 					"type": "text",
@@ -102,16 +106,16 @@
 					"top": 280,
 					"left": 250,
 					"width": 90,
-					"height": 20,
 					"dataSource": "Demo",
 					"action": "accept",
-					"text": "Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"class": "default",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/BtnDemo.4dm"
 				}
 			}
 		}
