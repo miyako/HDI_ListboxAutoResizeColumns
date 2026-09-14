@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_ListboxAutoResizeColumns" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="SAMPLES" uuid="373049FBC27B4679BB600FC556A05850" id="3">
+		<field name="ID" uuid="A6E58BB01FF1407482262079B5A1922D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="35C07DCBFEBB4747A3C229B95F85D5EE" type="10" never_null="true" id="2"/>
+		<field name="Text" uuid="4C4CE189E738499B84F53F34B61CF199" type="10" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="DF812DB0BB6B4CCB83F420E40DA14116" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="A6E58BB01FF1407482262079B5A1922D"/>
+		<table_extra input_form="Form1" output_form="Output"/>
+	</table>
+	<table name="Messages" uuid="7D5ADA6416594C4B831E0DA8AF36B138" id="4">
+		<field name="ID" uuid="ABC432C209D44BC0961899B42365BE54" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Text" uuid="429C5A1B6D3C491FA47C8BFF17599A53" type="10" never_null="true" id="2"/>
+		<field name="CurrentDate" uuid="2293B54F30074544BB4A0E505019293F" type="8" never_null="true" id="3"/>
+		<field name="CurrentTime" uuid="C58726127F5D4892BF3C42D29A7649FC" type="9" never_null="true" id="4"/>
+		<field name="ProcessName" uuid="3804857628164419AF8ECAA3B9468186" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="ProcessID" uuid="0EA01C0B260B4D8F9C6D1F2280990963" type="4" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="ABC432C209D44BC0961899B42365BE54"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="28579A05CFD6489F9EC5142D1372CBA0" type="7">
+		<field_ref uuid="ABC432C209D44BC0961899B42365BE54" name="ID">
+			<table_ref uuid="7D5ADA6416594C4B831E0DA8AF36B138" name="Messages"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9F0A7D5AE4AC4E49B1DB241459A71A43" type="7">
+		<field_ref uuid="A6E58BB01FF1407482262079B5A1922D" name="ID">
+			<table_ref uuid="373049FBC27B4679BB600FC556A05850" name="SAMPLES"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":HowDoI.4DD" package_name="HDI_ListboxAutoResizeColumns" structure_file_name="HowDoI">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
